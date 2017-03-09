@@ -88,15 +88,18 @@ html {
     background: url(../images/White_linux_gray_tux_2560x1600.jpg) !important;
     background-size: cover !important;
     height: 100vh;
-    overflow: hidden; } }
+    overflow: hidden; }
+
+  .contenedor-login {
+    margin-bottom: 10rem !important;
+    margin-top: 15rem !important;
+    margin-left: 13rem !important;
+    margin-right: 10rem !important; } }
 /*  login */
 .login {
   background: url(../images/fondo.jpg);
   background-size: cover;
   height: 100vh;
   overflow: hidden; }
-
-.contenedor-login {
-  border-color: #01549b; }
 
 /*# sourceMappingURL=estilos.css.map */
