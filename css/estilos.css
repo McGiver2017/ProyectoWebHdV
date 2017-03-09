@@ -1,0 +1,102 @@
+@charset "UTF-8";
+html {
+  font-family: cursive; }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+.nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
+
+/* links*/
+.navbar-inverse .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+.navbar-inverse .navbar-nav .active > .nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open > .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: rgba(0, 100, 255, 0.59); }
+
+/*vista peque├▒a*/
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem; }
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 100, 255, 0.59); }
+
+.navbar-inverse .navbar-toggler {
+  border-color: rgba(41, 43, 44, 0); }
+
+/* cambio de color */
+.bg-faded {
+  background-color: rgba(41, 43, 44, 0.54); }
+
+.bg-inverse {
+  background-color: rgba(41, 43, 44, 0.77) !important; }
+
+/* Estilos personales */
+.cabecera_inicial {
+  background: url(../images/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.contenido {
+  text-align: center; }
+
+.fa {
+  font-size: 5rem; }
+
+@media (min-width: 900px) {
+  .my-sm-0 {
+    margin-top: 0.8rem !important;
+    margin-bottom: 0 !important; }
+
+  .cabecera_inicial {
+    background: url(../images/White_linux_gray_tux_2560x1600.jpg) !important;
+    background-size: cover !important;
+    height: 100vh;
+    overflow: hidden; }
+
+  .login {
+    background: url(../images/White_linux_gray_tux_2560x1600.jpg) !important;
+    background-size: cover !important;
+    height: 100vh;
+    overflow: hidden; } }
+/*  login */
+.login {
+  background: url(../images/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.contenedor-login {
+  border-color: #01549b; }
+
+/*# sourceMappingURL=estilos.css.map */
